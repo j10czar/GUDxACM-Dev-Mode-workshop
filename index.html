@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar-container">
+        <div id="navbar">
+            <div id="nameplate">
+                <img src="assets/headshot.jpeg" id="small-headshot">
+                <p>Jerry Chalamet</p>
+    
+            </div>
+    
+            <div id="pages">
+                <p>About</p>
+                <p>Experience</p>
+                <p>Resume</p>
+                <a href="https://www.linkedin.com/in/jasontenczar/">
+                    <img src="assets/linkedin.png" alt="LinkedIn" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="hero">
+        <div id="hero-text">
+            <h1>Jerry Chalamet</h1>
+            <p>Software Engineer from San Francisco, California with experience in Frontend & Backend technologies.
+                Pursuing a Master’s degree in Computer Science at the University of Florida.
+            </p>
+            
+        </div>
+        <div id="hero-image">
+            <img src="assets/headshot.jpeg" alt="headshot">
+        </div>
+    </div>
+
+    <!-- now we will transition into using css classes instead of ids, a little more complex but more useful -->
+
+<div id="experiences">
+    <div class="card">
+        <div class="card-text">
+            <div class="card-body">
+                <div class="card-company">
+                    <img class="card-logo" src="assets/google.png" alt="">
+                    <h2>Google</h2>
+                </div>
+                <p>Interned during the Summer of 2023 in Mountain View, California. </p>
+            </div>
+            <p>Software Developer</p>
+        </div>
+        <div>
+            <img class="card-image" src="assets/google-hq.jpeg" alt="">
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-text">
+            <div class="card-body">
+                <div class="card-company">
+                    <img class="card-logo" src="assets/apple.png" alt="">
+                    <h2>Apple</h2>
+                </div>
+                <p>Interned during the Summer of 2024 in Cupertino, California. </p>
+            </div>
+            <p>Software Developer</p>
+        </div>
+        <div>
+            <img class="card-image" src="assets/apple-hq.jpeg" alt="">
+        </div>
+    </div>
+
+</div>
+    
+
+<div id="footer">
+    <p>👋 Hello there</p>
+</div>
+
+
+</body>
+</html>
