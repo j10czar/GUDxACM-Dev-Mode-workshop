@@ -13,6 +13,7 @@
    - `style.css`
 
 ### 🧩 Assets Setup
+Link: https://drive.google.com/file/d/1kDPCe-IDAReu1zegLdCPlLou4KaMXPEq/view?usp=sharing
 1. Make sure you’ve downloaded the **assets folder** provided
 2. Place the folder inside your project directory (same level as `index.html`)
 
