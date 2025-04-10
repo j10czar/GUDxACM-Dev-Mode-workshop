@@ -1,4 +1,4 @@
-# 🎨 Portfolio Website Workshop Guide  
+# 🎨 Figma Dev Mode Workshop Guide  
 **Using Figma Dev Mode + VS Code + Live Server**
 
 ---
